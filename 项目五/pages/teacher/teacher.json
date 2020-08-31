@@ -1,0 +1,11 @@
+{
+
+  
+    "navigationBarTitleText": "案例",
+  "usingComponents": {
+   
+    "x-teacher":"/components/x-teacher/x-teacher"
+  }
+}
+
+

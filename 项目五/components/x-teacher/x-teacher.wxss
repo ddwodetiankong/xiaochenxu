@@ -1,0 +1,58 @@
+.teacherItem{
+  width: 100px;
+  height: 130px;
+  background-color: orange;
+  border-radius:10px;
+  position:relative;
+}
+.teacherItem image{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  border:5px dashed red;
+  box-sizing:border-box;
+  /* 盒子的大小到边框，图片不超，盒子大小是边框盒子 */
+}
+
+.teacherItem text{
+  width: 100%;
+  display:block;
+  text-align: center;
+  color:white;
+}
+.delBtn{
+  position:absolute;
+  top:-6px;
+  right:-6px;
+  background-color:red;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 10px;
+  color:white;
+}
+.deleteItem{
+  animation:lk-dou 1s 0s infinite;
+}
+@keyframes lk-dou{
+  0%{
+    transform:rotate(0deg)
+  }
+  10%,20%,30%{
+    transform:rotate(-4deg)
+    
+  }
+ 15%,25%,35%{
+    transform:rotate(4deg)
+    
+  }
+  40%{
+    transform:rotate(2deg)
+  }
+  /* 百分号指时间 */
+  100%{
+    transform:rotate(0deg)
+  }
+}
+

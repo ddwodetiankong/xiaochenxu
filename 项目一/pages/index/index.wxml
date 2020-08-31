@@ -1,0 +1,9 @@
+<view class='container'>
+<image src='{{src}}' />
+  <text>{{
+    name
+  }}</text>
+  <!-- open-type表示激活获取用户信息功能  getUserInfo不可更改 -->
+  <!-- bindgetuserinfo表示获得的数据传递给自定义函数getMyfo -->
+  <button open-type='getUserInfo' bindgetuserinfo='getMyInfo'>点击获取头像和昵称</button>
+</view>

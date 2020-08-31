@@ -1,0 +1,6 @@
+<view class='teacherContainer'>
+<block wx:for="{{teacherLive}}"   wx:key="{{item.id}}">
+  <x-teacher  tt="{{item}}"/>
+</block>
+ 
+</view>

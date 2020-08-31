@@ -1,0 +1,25 @@
+.container{
+  padding:15rpx;
+
+
+}
+.title{
+  text-align:center;
+  font-size: 35rpx;
+  line-height:35rpx;
+}
+.poster image{
+  width: 100%;
+}
+.content text{
+  text-align: left;
+  font-size:30rpx;
+  line-height:35rpx;
+}
+.add_date{
+  font-size:30rpx;
+  text-align:right;
+  line-height:30rpx;
+  margin-right:25rpx;
+  margin-top:20rpx;
+}
